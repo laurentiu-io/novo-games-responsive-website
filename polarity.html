@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="icon" type="image/png" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <title>Polarity</title>
+
+    <!-- Hotjar Tracking Code for http://novogames.co.uk/mirror-dash -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2064420,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5CR1LF6QQ5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-5CR1LF6QQ5');
+    </script>
+
+</head>
+
+<body id="polarity">
+
+    <div class="color-overlay"></div>
+
+    <nav class="navbar">
+
+        <div class="navbar__header">
+
+            <a href="http://www.novogames.co.uk" class="navbar__logo-container"><img class="navbar__logo" src="./img/logo.svg" alt="novo-games-logo"></a>
+
+            <div class="navbar__btn">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+            </div>
+
+            <ul class="navbar__links">
+                <a class="navbar__link" id="mirror-nav" href="mirror-dash.html"><li id="mirror-li"><p id="mirror-p">Mirror Dash</p></li></a>
+                <a class="navbar__link" id="bobblehead-nav" href="bobblehead-mania.html"><li><p id="bobblehead-p">Bobblehead Mania</p></li></a>
+                <a class="navbar__link" id="polarity-nav" href="polarity.html"><li><p id="polarity-p">Polarity</p></li></a>
+                <a class="navbar__link" id="tubes-nav" href="tubes.html"><li><p id="tubes-p">Tubes</p></li></a>
+                <a class="navbar__link" id="about-nav" href="about.html"><li><p id="about-p">About us</p></li></a>
+                <a class="navbar__link" id="press-nav" href="press.html"><li><p id="press-p">Press</p></li></a>
+                <a class="navbar__link" id="contact-nav" href="contact.html"><li><p id="contact-p">Contact</p></li></a>
+                <div class="underbar"></div>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <header>
+
+        <section class="presentation" id="presentation-pol">
+
+
+            <div class="introduction" id="introduction-pol">
+
+                <div class="game-logo-container" id="pol-game-logo-container">
+                    <img src="./img/polarity/polarity-logo.png" id="pol-game-logo" alt="polarity-logo">
+                </div>
+
+                <div class="intro-text" id="pol-intro-text">
+                    <p>The rules are simple! Control the two opposed poles in sync. Survive against all odds and keep polar.</p>
+                </div>
+
+                <div class="cta" id="bm-cta">
+                    <a class="cta-ios" href="https://apps.apple.com/us/app/polarity-master-both-poles-of-the-same-magnet/id1125703928" target="_blank">
+                        <img src="./img/app-store-badge.svg" alt="app store badge">
+                    </a>
+                </div>
+
+                <div class="scroll-down-arrow section-1" id="bm-arrow"></div>
+
+            </div>
+
+            <div class="phone-container">
+                <img src="./img/polarity/phones-polarity.png" id="pol-phone-frame" alt="polarity-screenshot">
+            </div>
+
+            <div class="pol-obstacles">
+
+                <div class="pol-obstacles-left">
+                    <img src="./img/polarity/polarity-obstacle.png" id="pol-obstacle-left-1" alt="polarity-obstacle">
+                    <img src="./img/polarity/polarity-obstacle.png" id="pol-obstacle-left-2" alt="polarity-obstacle">
+                    <img src="./img/polarity/polarity-obstacle.png" id="pol-obstacle-left-3" alt="polarity-obstacle">
+                </div>
+    
+                <div class="pol-obstacles-right">
+                    <img src="./img/polarity/polarity-obstacle.png" id="pol-obstacle-left-1" alt="polarity-obstacle">
+                    <img src="./img/polarity/polarity-obstacle.png" id="pol-obstacle-left-2" alt="polarity-obstacle">
+                    <img src="./img/polarity/polarity-obstacle.png" id="pol-obstacle-left-3" alt="polarity-obstacle">
+                </div>
+
+
+            </div>
+
+            <div class="top-cover-container" id="pol-top-cover-container">
+                <div class="top-cover-image" id="pol-top-cover-image-left"></div>
+                <div class="top-cover-image" id="pol-top-cover-image-right"></div>
+            </div>
+
+        </section>
+
+    </header>
+
+    <main>
+
+        <section class="trailer-section" id="bm-trailer-section">
+
+            <div class="trailer section-2">
+                <iframe width="736" height="416" src="https://www.youtube.com/embed/Mc7le4bE8lU" frameborder="0" allowfullscreen=""></iframe>	  	
+            </div>
+
+        </section>
+
+        <section class="content" id="bm-content">
+
+            <div id="modal-overlay" class="modal-overlay">
+
+            </div>
+
+            <div class="modal">
+
+                <div class="modal-content">
+
+                    <img class="modal-image" id="modalImg" src=""/>
+
+                    <div class="modal-nav">
+                        <a class="modal-nav-left" alt=""></a>
+                        <a class="modal-nav-right" alt=""></a>
+                    </div>
+
+                </div>
+
+                <div class="modal-data">
+
+                    <span class="modal-caption"></span>
+                    <img class="modal-close" src="./img/close.svg" alt="close-modal-button"/>
+
+                </div>
+
+            </div>
+           
+            <div class="screenshots pol">
+
+                <span class="screenshot-item">
+                    <img class="screenshot" src="./img/polarity/polarity-1.png" alt="polarity-screenshot-1" width="228" height="128" />
+                </span>
+                <span class="screenshot-item">
+                    <img class="screenshot" src="./img/polarity/polarity-2.png" alt="polarity-screenshot-2" width="228" height="128" />
+                </span>
+                <span class="screenshot-item">
+                    <img class="screenshot" src="./img/polarity/polarity-3.png" alt="polarity-screenshot-3" width="228" height="128" />
+                </span>
+
+            </div>
+
+            <div class="sign-up" id="pol-sign-up">
+                
+                <p>Sign up for news and updates</p>
+
+                <form action="https://novogames.us2.list-manage.com/subscribe/post" method="POST">
+                    <input type="hidden" name="u" value="b5af6c18e53956d68f5266669">
+                    <input type="hidden" name="id" value="2d5c135d1c">
+                    <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" placeholder="Please enter your email" required>
+                    <button type="submit" class="btn-primary" name="submit">Sign up</button>
+                </form>
+
+            </div>
+
+            <div class="social-media" id="bm-social-media">
+
+                <a href="https://www.facebook.com/NovoGamesUK">
+                    <img src="./img/polarity/pol-facebook.svg" alt="facebook-novo-games-polarity" height="33" />
+                </a>
+                <a href="https://twitter.com/NovoGamesUK">
+                    <img src="./img/polarity/pol-twitter.svg" alt="twitter-novo-games-polarity" height="33" />
+                </a>
+                <a href="https://www.instagram.com/novogames/">
+                    <img src="./img/polarity/pol-instagram.svg" alt="instagram-novo-games-polarity" height="33"/>
+                </a>
+                <a href="https://www.youtube.com/channel/UCEVtjttIjPrK7Eh2Ip49yqw?spfreload=10">
+                    <img src="./img/polarity/pol-youtube.svg" alt="youtube-novo-games-polarity" height="33" />
+                 </a>
+
+            </div>
+
+        </section>
+
+        <div class="ground" id="ground-pol">
+            <img src="./img/polarity/pol-ground.png" alt="polarity-ground">
+        </div>
+
+        <!-- Swiper -->
+        <div class="other-games swiper-container" id="swiperContainer">
+
+            <h1>Other Games</h1>
+
+            <div class="cards swiper-wrapper">
+
+                <div id="swiperSlide">
+
+                    <div class="card">
+                        <a href="mirror-dash.html"><img src="./img/card-mirror.png" alt="mirror-dash-screenshot">
+                        <h2>Mirror Dash</h2></a>
+                    </div>
+
+                </div>
+
+                <div id="swiperSlide">
+
+                    <div class="card">
+                        <a href="bobblehead-mania.html"><img src="./img/card-bobblehead.png" alt="bobblehead-mania-screenshot">
+                        <h2>Bobblehead Mania</h2></a>
+                    </div>
+
+                </div>
+
+                <div id="swiperSlide">
+
+                    <div class="card">
+                        <a href="tubes.html"><img src="./img/card-tubes.png" alt="tubes-screenshot">
+                        <h2>Tubes</h2></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Add Pagination -->
+            <div id="swiperPagination"></div>
+            
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="logo-container">
+            <img src="./img/logo.svg" alt="logo">
+        </div>
+
+        <ul class="footer-list">
+            <li>© Novo Games 2020</li>
+            <li><a class="footer-link" href="privacy.html">Privacy Policy</a></li>
+            <li><a class="footer-link" href="contact.html">Contact</a></li>
+        </ul>
+
+    </footer>
+
+    <script src="./anime.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
