@@ -197,7 +197,8 @@ if (body.classList.contains("mirror")) {
   const ctas = document.querySelector('.cta');
   const darkModeText = document.querySelector('.dark-mode-text');
   const switchBox = document.querySelector('#switch');
-  const section_1 = document.querySelector('.section-1');
+  const mirrorArrow = document.querySelector('#mirror-arrow');
+
   let darkTheme = false;
 
 
@@ -256,7 +257,7 @@ if (body.classList.contains("mirror")) {
       }, '-= 900')
 
       .add({
-        targets: section_1,
+        targets: mirrorArrow,
         borderRight: darkTheme ? '2px rgb(0,0,0) solid' : '2px rgb(255, 255, 255) solid',
         borderBottom: darkTheme ? '2px rgb(0,0,0) solid' : '2px rgb(255, 255, 255) solid'
       }, '-= 900')
@@ -310,6 +311,7 @@ if (body.classList.contains("mirror")) {
         targets: ctas,
         filter: darkTheme ? 'invert(0)' : 'invert(1)'
       }, '-= 1000')
+
       
       // Everytime we click on the sun I want to toggle to switch
       if(!darkTheme) {

@@ -599,6 +599,11 @@ body#contact .navbar__links #contact-p:after {
   animation-name: arrow;
 }
 
+.scroll-down-arrow:hover:before {
+    border-right: 0px rgba(255, 255, 255, 0) solid;
+    border-bottom: 0px rgba(255, 255, 255, 0) solid;
+}
+
 .scroll-down-arrow:hover {
     cursor: pointer;
 }
